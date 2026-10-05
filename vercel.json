@@ -1,3 +1,7 @@
 {
-  "version": 2
+  "version": 2,
+  "builds": [
+    { "src": "api/courses.js", "use": "@vercel/node" },
+    { "src": "api/courses/level.js", "use": "@vercel/node" }
+  ]
 }
